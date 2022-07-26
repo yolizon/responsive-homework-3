@@ -2,6 +2,8 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Playfair Display", serif;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -14,10 +16,12 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: var(--font-family);
 }
 
 h1 {
   font-size: 96px;
+  font-style: bold;
 }
 
 h2 {
@@ -30,6 +34,7 @@ h3 {
 }
 
 p {
+  font-family: var(--secondary-font-family);
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
@@ -92,6 +97,10 @@ p {
 .container-block {
   margin-top: 100px;
 }
+.btn-media {
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 576px) {
   .container img {
     display: none;
@@ -104,9 +113,5 @@ p {
   }
   h3 {
     font-size: 15px;
-  }
-  .btn-media {
-    display: flex;
-    justify-content: center;
   }
 }
