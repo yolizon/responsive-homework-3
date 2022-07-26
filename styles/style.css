@@ -89,11 +89,10 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-top: 5px;
+  margin-left: 10px;
 }
 
-.email-link:hover {
-  text-decoration: underline;
-}
 .container-block {
   margin-top: 100px;
 }
