@@ -7,8 +7,6 @@
 }
 
 body {
-  max-width: 800px;
-  margin: 50px auto;
   font-family: var(--font-family);
 }
 
@@ -38,7 +36,7 @@ p {
   font-family: var(--secondary-font-family);
   background: var(--secondary-color);
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
   font-weight: normal;
@@ -106,7 +104,7 @@ p {
   p {
     font-size: 15px;
   }
-  .btn-media {
+  .btn-center {
     display: flex;
     justify-content: center;
   }
