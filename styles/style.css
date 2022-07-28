@@ -62,7 +62,7 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  /* margin: 30px 0; */
 }
 
 .about-paragraphs p {
